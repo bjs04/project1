@@ -64,7 +64,7 @@ body {
 
 .card-img-top {
     border-radius: 1rem !important;
-    width: 100% !important;
+    width: 80% !important;
     object-fit: cover !important;
 }
 
@@ -116,12 +116,17 @@ body {
     padding-right: 0;
 }
 
+.show-body {
+    padding: 3px !important;
+}
+
+
 .listingTitle {
     color: #fe424d;
 }
 
 /*Map styles*/
 #map { 
-    height: 400px; 
-    width: 80vh;
+    height: 200px; 
+    width: 100%;
 }
